@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 
 
 /** ------------------ MAKING CONNECTION ------------------ **/
-const DB = 'mongodb+srv://rasmikanta:1234@rasmi.xql558g.mongodb.net/?retryWrites=true&w=majority';
-// const DB = 'mongodb://127.0.0.1:27017/csvUploads';
+// const DB = 'mongodb+srv://rasmikanta:1234@rasmi.xql558g.mongodb.net/?retryWrites=true&w=majority';
+const DB = 'mongodb://127.0.0.1:27017/csvUploads';
 mongoose.connect(DB).then(()=>{
     console.log('Connection successful!');
 }).catch((err) => console.log("no connection " + err));
