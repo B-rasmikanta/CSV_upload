@@ -34,6 +34,5 @@ app.listen(port, function(err) {
         return;
     }
     console.log('Server is up and running on port: ', port);
-    console.log(process.env.DB_USERNAME , "This is the env")
 
 });
